@@ -1,0 +1,25 @@
+{
+  "client": "Sharkk",
+  "agent": "Petto booking assistant",
+  "environment": "staging",
+  "project": "sharkk-petto-staging",
+  "prepared_by": "Agent Reliability",
+  "week": "2026-W42",
+  "phoenix_base": "http://127.0.0.1:6006",
+  "targets": {
+    "tool": 0.95,
+    "args": 0.95,
+    "tool_result": 0.95,
+    "grounded": 0.98,
+    "loop_free": 0.99,
+    "p95_ms": 5000
+  },
+  "weights": {
+    "tool": 0.25,
+    "args": 0.15,
+    "tool_result": 0.15,
+    "grounded": 0.25,
+    "loop_free": 0.1,
+    "latency": 0.1
+  }
+}

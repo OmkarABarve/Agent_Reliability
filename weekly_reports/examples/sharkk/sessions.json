@@ -1,0 +1,24 @@
+[
+  {
+    "session_id": "20261017-1430-baseline",
+    "started_at": "2026-10-17T14:30:00Z",
+    "reason": "baseline",
+    "model": "gpt-4.1-mini",
+    "prompt_version": "p14",
+    "step_count": 8,
+    "agent_version": "petto-2.3",
+    "ship": false,
+    "project": "sharkk-petto-staging"
+  },
+  {
+    "session_id": "20261018-1015-after-prompt-fix",
+    "started_at": "2026-10-18T10:15:00Z",
+    "reason": "after-prompt-fix",
+    "model": "gpt-4.1-mini",
+    "prompt_version": "p15",
+    "step_count": 8,
+    "agent_version": "petto-2.3",
+    "ship": true,
+    "project": "sharkk-petto-staging"
+  }
+]
